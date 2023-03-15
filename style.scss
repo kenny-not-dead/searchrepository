@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.formWrapper{
+  text-align: center;
+  h3{
+    vertical-align: middle;
+  }
+  input{
+    width: 35%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    margin: 0 5px 0 20px;
+  }    
+}
+
+
+.btn {
+  width: 110px;
+  background: rgb(255 118 0);
+  padding: 5px;
+  border: none;
+  margin-top: 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.contentWrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.answerWrapper{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.answerList{
+display: flex;
+padding: 20px;
+}
+
+.nameWrapper{
+  display: block;
+
+}
+
+.langWrapper{
+  p{
+    display: inline;
+  }
+}
+
+h3, h5, h6{
+  display: inline;
+}
+
+
+
+.userInfoWrapper{
+  img{
+    height: 80px;
+    display: block;
+    border-radius: 20%;
+  }
+
+}
+
+.infoWrapper{
+  margin-left: 40px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  div{
+    padding: 4px 
+  }
+}
